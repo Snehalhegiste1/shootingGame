@@ -69,6 +69,12 @@ function refillingHealth() {
 
 // Showing the final result which player is winner
 function finalResult(playerNum) {
+  // Reintialsing the Win count of both the player
+  p1win = 0;
+  p2win = 0;
+  document.getElementById("p1win").innerHTML = p1win;
+  document.getElementById("p2win").innerHTML = p2win;
+
   document.getElementById(
     "finalResult"
   ).innerHTML = `Player ${playerNum} Won The Game!`;
