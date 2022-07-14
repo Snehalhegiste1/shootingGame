@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooting Game</title>
+    <script src="shooting.js"></script>
+    <link rel="stylesheet" href="shooting.css" />
+  </head>
+
+  <body>
+    <button onclick="startGame()">Start Game</button>
+
+    <div id="startGame" class="hide-component">
+      <p>Player 1 - health <span id="p1health">100</span></p>
+      <p>Player 2 - health <span id="p2health">100</span></p>
+
+      <button onclick="player1Turn()">Player 1 Shoot</button>
+
+      <p id="player1"></p>
+
+      <button onclick="player2Turn()">Player 2 Shoot</button>
+
+      <p id="player2"></p>
+
+      <p>Player 1 - Won : <span id="p1win">0</span></p>
+      <p>Player 2 - Won : <span id="p2win">0</span></p>
+    </div>
+
+    <p id="finalResult"></p>
+  </body>
+</html>
