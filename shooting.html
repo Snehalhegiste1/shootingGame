@@ -10,22 +10,21 @@
   </head>
 
   <body>
-    <button onclick="startGame()">Start Game</button>
+    <button onclick="startGame()" class="start-button">Start Game</button>
 
     <div id="startGame" class="hide-component">
-      <p>Player 1 - health <span id="p1health">100</span></p>
-      <p>Player 2 - health <span id="p2health">100</span></p>
+      <h2>Player 1 Health - <span id="p1health" class="bg-color">100</span></h2>
+      <h2>Player 2 Health - <span id="p2health" class="bg-color">100</span></h2>
 
-      <button onclick="player1Turn()">Player 1 Shoot</button>
+      <button onclick="player1Turn()" class="fire-button">
+        Player 1 Shoot
+      </button>
+      <button onclick="player2Turn()" class="fire-button">
+        Player 2 Shoot
+      </button>
 
-      <p id="player1"></p>
-
-      <button onclick="player2Turn()">Player 2 Shoot</button>
-
-      <p id="player2"></p>
-
-      <p>Player 1 - Won : <span id="p1win">0</span></p>
-      <p>Player 2 - Won : <span id="p2win">0</span></p>
+      <h3>Player 1 Won : <span id="p1win">0</span></h3>
+      <h3>Player 2 Won : <span id="p2win">0</span></h3>
     </div>
 
     <p id="finalResult"></p>

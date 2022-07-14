@@ -1,3 +1,33 @@
 .hide-component {
   display: none;
 }
+
+.start-button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bg-color {
+  background-color: #beb9b431;
+}
+
+.fire-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
