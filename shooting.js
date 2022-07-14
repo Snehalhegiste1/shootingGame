@@ -1,6 +1,6 @@
 // Initial Player 1 and Player 2 health.
-let p1health = 10;
-let p2health = 10;
+let p1health = 100;
+let p2health = 100;
 
 // For keeping track of winning count of Player 1 and Player 2.
 let p1win = 0;
@@ -61,8 +61,8 @@ function randomNumGenerate(num) {
 
 // Reintialising health of both the player.
 function refillingHealth() {
-  p1health = 10;
-  p2health = 10;
+  p1health = 100;
+  p2health = 100;
   document.getElementById("p1health").innerHTML = p1health;
   document.getElementById("p2health").innerHTML = p2health;
 }
